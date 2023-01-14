@@ -12,7 +12,7 @@ let allCalc = document.querySelectorAll('.allCalc');
 let firstValue = [];
 let secondValue = [];
 
-let isTrue = true;
+let isTrue;
 let calcMain;
 
 allCalc.forEach(item => {
