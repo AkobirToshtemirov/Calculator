@@ -17,7 +17,7 @@
 }
 
 .text {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .calculator,
@@ -80,5 +80,22 @@
     visibility: hidden;
     opacity: 0;
     transition: 1s linear;
+  }
+}
+
+@media (max-width:1200px) {
+  .container{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .calculator {
+    grid-template-columns: repeat(4, 70px);
+    grid-auto-rows: 70px;
+    grid-gap: 10px;
+  }
+  
+  .btn {
+    font-size: 25px;
   }
 }
