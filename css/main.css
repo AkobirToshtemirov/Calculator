@@ -102,7 +102,7 @@ body {
 }
 
 @media (max-width:1200px) {
-  .container{
+  .container {
     width: 100%;
     padding: 20px;
   }
@@ -113,7 +113,7 @@ body {
     grid-auto-rows: 70px;
     grid-gap: 10px;
   }
-  
+
   .btn {
     font-size: 25px;
   }
